@@ -39,10 +39,10 @@ console.log(`this is a black toyota revo with diesel enigine 2.8 the top speed o
 
 
 console.log(` 
-    this is a black ${brand} ${model} with ${fueltype} engine ${enginecapacity} the top speed of this car is ${topspeed} the drivetrain is ${drivetrain} and bodytype is ${bodytype} and the weight of this vehicle is ${vehicleweight} fuel tank capacity is ${fueltankcapacity} 
-    groundclearance is ${groundclearence} seating capacity is for ${seatingcapacity} persons, sidemirrors are ${sidemirrors} and rims are in ${rimscolor} color, seats are ${seats}
+    this is a black ${brand} ${model} with ${fueltype} engine ${enginecapacity} the top speed of this car is ${topspeed} the drivetrain is ${drivetrain} and bodytype is ${bodytype} and the weight of this vehicle is ${vehicleweight}, fuel tank capacity is ${fueltankcapacity},
+    groundclearance is ${groundclearence}, seating capacity is for ${seatingcapacity} persons, sidemirrors are ${sidemirrors} and rims are in ${rimscolor} color, seats are ${seats}
     interior is in ${interior} color, horse power of this car is ${horsepower} suspension is ${suspension} headlights are ${headlights} there are ${airbags} airbags in this car, if we talk about cimate control, climate control is ${climatecontrol}
-    rearglass is provided in ${rearglass} frontgrill is ${frontgrill} and the transmission is ${transmission}`);
+    rearglass is provided in ${rearglass}, frontgrill is ${frontgrill} and the transmission is ${transmission}`);
 
 
 //  this is a black toyota revo with diesel enigine 2.8 the top speed of
