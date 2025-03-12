@@ -6,11 +6,11 @@ const enginecapacity = 2.8;
 const topspeed = 180;
 const drivetrain = "4X4";
 const bodytype = "pickup";
-const vehicleweight = "2910kg";
+const vehicleweight = "2910";
 const fueltankcapacity = "80l";
 const groundclearence = 310;
 const seatingcapacity = 5;
-const sidemirrors = "retracable";
+const sidemirrors = "retractable";
 
 /*variables*/
 let rimscolor = "silver";
@@ -18,7 +18,7 @@ let seats = "thin and uncomfortable";
 let interior = "black";
 let horsepower = 201;
 let suspension = "hard";
-let headlights = "h4 led headlights";
+let headlights = "h4 led";
 let airbags = 2;
 let climatecontrol = "manual";
 let rearglass = "sliding";
@@ -45,7 +45,7 @@ console.log(`this is a black ${brand} ${model} with ${fueltype} engine ${enginec
  ${interior} color, horsepower of this car is ${horsepower}, suspension is ${suspension}, headlights 
  are ${headlights}, there are ${airbags} airbags in this car, if we talk about climate control,
  climate control is ${climatecontrol}, rearglass is provided in ${rearglass}, frontgrill is
- ${frontgrill} and the transmission is ${transmission}`);
+ ${frontgrill} and the transmission is ${transmission}.`);
 
 
 //  this is a black toyota revo with diesel enigine 2.8 the top speed of
