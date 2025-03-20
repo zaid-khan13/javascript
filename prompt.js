@@ -1,7 +1,7 @@
 // To use Prompt in node js
 
 // 1. Install prompt-sync
-// npm install prompt-sync
+//  npm install prompt-sync
 
 // 2. import prompt-sync function
 // const ps = require("prompt-sync");
@@ -42,3 +42,6 @@ if (studentPercentage >= 90) {
 
 // let age = prompt("What's your age?");
 // console.log(`${name} is ${age} years old`);
+
+
+
