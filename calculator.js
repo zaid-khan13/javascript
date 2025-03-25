@@ -7,16 +7,14 @@ const prompt = ps();
 // If the bill amount is less than $50, no discount is applied.
 
 let totalbillamount = prompt("what's the total bill in dollars?");
-
-if (totalbillamount >= 100) {
+if (totalbillamount >= 500) {
+  console.log(totalbillamount - totalbillamount * 0.2);
+} else if (totalbillamount >= 100) {
   console.log(totalbillamount - totalbillamount * 0.1);
 } else if (totalbillamount >= 50) {
   console.log(totalbillamount - (totalbillamount * 5) / 100);
-} else if (totalbillamount <= 50) {
-    console.log(totalbillamount = totalbillamount);
-} else if (totalbillamount >= 500) {
-    console.log(totalbillamount - totalbillamount * 4) / 500;
-    
+} else if (totalbillamount < 50) {
+  console.log(totalbillamount);
 }
 
 // apply a 10% discount
@@ -54,4 +52,4 @@ if (totalbillamount >= 100) {
 // What is 10% of 100?
 // 100*10/100
 // 50*5/100 = 2.5
-// 50*0.05 = 2.5
+// 50*0.05 = 2.5s
