@@ -1,7 +1,7 @@
 // To use Prompt in node js
 
 // 1. Install prompt-sync
-// npm install prompt-sync
+ //npm install prompt-sync
 
 // 2. import prompt-sync function
 // const ps = require("prompt-sync");
@@ -31,4 +31,3 @@ let brand = prompt("what type of brand you like?");
 let model = prompt("what model you like from that brand?");
 
 let color = prompt("what is your color choice?");
-console.log(`ok, I'll find you a ${bodytype} ${brand} ${model} ${color}`);
