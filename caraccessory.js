@@ -12,4 +12,4 @@ if (totalbillamount > 1500) {
     console.log(totalbillamount - (totalbillamount *0.15));
 } else if (totalbillamount < 400) {
     console.log(totalbillamount);
-}
+}j  
