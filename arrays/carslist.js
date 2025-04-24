@@ -12,7 +12,7 @@ let cars = [
   "Surf",
   "Vezel",
   "Mg",
-
+  "ferrari"
 ];
 
 for (let i = 0; i < cars.length; i++) {
